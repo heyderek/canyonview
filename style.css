@@ -182,7 +182,112 @@ body {
 @media screen and (max-width: 1px) {
   body {
     font-size: 1.125em; } }
+body, #page {
+  background: #4a392f; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
+h1, h3, h5 {
+  font-size: 55px; }
+
+h2, h4, h6 {
+  font-size: 25px; }
+
+p, address {
+  margin: 0 0 20px; }
+
+ul, ol {
+  margin: 0 0 20px 10px;
+  padding: 0 0 0 10px; }
+  ul li, ol li {
+    margin: 0 0 5px 0; }
+
+ul {
+  list-style: disc outside; }
+
+ol {
+  list-style: decimal outside; }
+
 .wrapper {
   margin: 0 auto;
   position: relative;
   width: 78.75em; }
+
+#header_wrap {
+  background: url(images/wood.jpg);
+  border-bottom: 2px solid #c8733e;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1; }
+  #header_wrap header hgroup, #header_wrap header nav {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; }
+  #header_wrap header hgroup {
+    width: 23.75em;
+    padding: 20px 0; }
+    #header_wrap header hgroup h1, #header_wrap header hgroup h2 {
+      position: absolute;
+      text-indent: -9999em; }
+    #header_wrap header hgroup img {
+      max-width: 100%;
+      height: auto; }
+  #header_wrap header nav {
+    margin-top: 40px;
+    font-size: 24px;
+    position: absolute;
+    right: 0; }
+    #header_wrap header nav ul#access {
+      margin: 0;
+      padding: 10px 20px;
+      background: rgba(84, 22, 9, 0.5);
+      border-radius: 8px; }
+      #header_wrap header nav ul#access li {
+        display: inline-block;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        margin: 0; }
+        #header_wrap header nav ul#access li a {
+          color: white;
+          padding: 20px;
+          display: block; }
+          #header_wrap header nav ul#access li a:hover {
+            border-bottom: 3px solid #99cc33;
+            margin-bottom: -3px; }
+        #header_wrap header nav ul#access li ul {
+          display: none;
+          background: rgba(84, 22, 9, 0.5); }
+        #header_wrap header nav ul#access li:hover ul {
+          display: block;
+          position: absolute;
+          width: 13.75em; }
+          #header_wrap header nav ul#access li:hover ul li {
+            display: block; }
+  #header_wrap header #location ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    color: white; }
+
+.subheader {
+  background: url(images/straws.png);
+  padding: 40px 0;
+  position: relative;
+  z-index: 0; }
+
+#slider .wrapper {
+  width: 68.75em; }
+  #slider .wrapper #flexslider {
+    height: 450px;
+    background: white; }
+
+.content {
+  background: white;
+  padding: 20px 0; }
+
+footer {
+  padding: 40px 0; }

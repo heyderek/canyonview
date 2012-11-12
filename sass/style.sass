@@ -3,9 +3,36 @@
 
 //Colors
 
+$white: #fff
+$lt_green: #99CC33
+$khaki: #C8733E
+$brown: #4A392F
+
 //Typograpy
 
 //General
+body, #page
+  background: $brown
+a
+  text-decoration: none
+  &:hover
+h1,h2,h3,h4,h5,h6
+  text-transform: uppercase
+h1,h3,h5
+  font-size: 55px
+h2,h4,h6
+  font-size: 25px
+p, address
+  margin: 0 0 $gutter
+ul,ol
+  margin: 0 0 $gutter 10px
+  padding: 0 0 0 10px
+  li
+    margin: 0 0 5px 0
+ul
+  list-style: disc outside
+ol
+  list-style: decimal outside
 
 .wrapper
   margin: 0 auto
@@ -14,12 +41,96 @@
 
 //Header
 
+#header_wrap
+  background: url(images/wood.jpg)
+  border-bottom: 2px solid $khaki
+  box-shadow: 0 2px 3px rgba(0,0,0,.5)
+  position: relative
+  z-index: 1
+  header
+    hgroup, nav
+      display: inline-block
+      vertical-align: top
+      box-sizing: border-box
+    hgroup
+      width: $cols5
+      padding: $gutter 0
+      h1,h2
+        position: absolute
+        text-indent: -9999em
+      img
+        max-width: 100%
+        height: auto
+    
+    nav
+      margin-top: $gutter*2
+      font-size: 24px
+      position: absolute
+      right: 0
+      ul#access
+        margin: 0
+        padding: $gutter/2 $gutter
+        background: rgba(84,22,9,.5)
+        border-radius: 8px
+        li
+          display: inline-block
+          white-space: nowrap
+          box-sizing: border-box
+          vertical-align: middle
+          margin: 0
+          a
+            color: $white
+            padding: $gutter
+            display: block
+            &:hover
+              border-bottom: 3px solid $lt_green
+              margin-bottom: -3px
+          ul
+            display: none
+            background: rgba(84,22,9,.5)
+          &:hover ul
+            display: block
+            position: absolute
+            width: $cols3
+            li
+              display: block
+    
+    #location
+      ul
+        li
+          display: inline-block
+          box-sizing: border-box
+          color: $white
+
+//Slider
+
+.subheader
+  background: url(images/straws.png)
+  padding: $gutter*2 0
+  position: relative
+  z-index: 0
+#slider
+  .wrapper
+    width: $cols14
+    #flexslider
+      height: 450px
+      background: $white
+
 //Front Page
 
+
+
 //Content
+
+.content
+  background: $white
+  padding: $gutter 0
 
 //Sidebar
 
 //Footer
+
+footer
+  padding: $gutter*2 0
 
 //Break Points
