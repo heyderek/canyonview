@@ -182,3 +182,7 @@ body {
 @media screen and (max-width: 1px) {
   body {
     font-size: 1.125em; } }
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 78.75em; }
