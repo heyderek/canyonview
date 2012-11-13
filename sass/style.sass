@@ -147,7 +147,9 @@ ol
           &:hover ul
             display: block
             position: absolute
-            width: $cols3
+            width: $cols2
+            margin-top: 10px
+            border-radius: 0 0 5px 5px
             li
               display: block
     
@@ -268,6 +270,21 @@ ol
 .content
   background: $white
   padding: $gutter 0
+
+#primary, #secondary
+  display: inline-block
+  vertical-align: top
+  box-sizing: border-box
+  white-space: nowrap
+  &>*
+    white-space: normal
+#primary
+  width: $cols12
+  padding-left: $gutter
+  margin-left: $cols4
+#secondary
+  width: $cols4
+  margin-left: -$cols16
 
 //Sidebar
 

@@ -536,7 +536,9 @@ ol {
         #header_wrap header nav ul#access li:hover ul {
           display: block;
           position: absolute;
-          width: 13.75em; }
+          width: 8.75em;
+          margin-top: 10px;
+          border-radius: 0 0 5px 5px; }
           #header_wrap header nav ul#access li:hover ul li {
             display: block; }
   #header_wrap header #head_location {
@@ -648,6 +650,23 @@ ol {
 .content {
   background: white;
   padding: 20px 0; }
+
+#primary, #secondary {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  white-space: nowrap; }
+  #primary > *, #secondary > * {
+    white-space: normal; }
+
+#primary {
+  width: 58.75em;
+  padding-left: 20px;
+  margin-left: 18.75em; }
+
+#secondary {
+  width: 18.75em;
+  margin-left: -78.75em; }
 
 footer {
   color: white;
