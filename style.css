@@ -593,6 +593,16 @@ ol {
     position: absolute;
     top: 50%;
     width: 100%; }
+    #flexslider1 .flex-direction-nav a {
+      background: url(images/arrows_flex.png) no-repeat;
+      height: 60px;
+      width: 60px; }
+    #flexslider1 .flex-direction-nav .flex-prev {
+      margin-left: -40px; }
+    #flexslider1 .flex-direction-nav .flex-next {
+      margin-right: -40px;
+      background-position: 100%;
+      right: 3px; }
 
 #flexslider2 {
   margin-top: 40px;
