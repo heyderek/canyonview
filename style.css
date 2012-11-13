@@ -285,6 +285,12 @@ ol {
     height: 450px;
     background: white; }
 
+#front_page .wrapper {
+  width: 68.75em; }
+#front_page h3 {
+  background: #99cc33;
+  color: white; }
+
 .content {
   background: white;
   padding: 20px 0; }
