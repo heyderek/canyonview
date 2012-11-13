@@ -1,5 +1,7 @@
 @import 'reset.sass'
 @import 'frameless.sass'
+@import 'fonts/kameron/stylesheet.sass'
+@import 'fonts/cabin/stylesheet.sass'
 @import 'flexslider.sass'
 
 
@@ -9,23 +11,33 @@ $white: #fff
 $lt_green: #99CC33
 $khaki: #C8733E
 $brown: #4A392F
+$md_gray: #666
 
 //Typograpy
 
 //General
 body, #page
   background: $brown
+  color: $md_gray
+  @include cabin_condensedregular
 a
   text-decoration: none
   &:hover
 h1,h2,h3,h4,h5,h6
   text-transform: uppercase
+  margin: 0 0 $gutter
+  @include kameronbold
 h1,h3,h5
   font-size: 55px
 h2,h4,h6
   font-size: 25px
+strong
+  font-weight: bold
+em
+  font-style: italic
 p, address
   margin: 0 0 $gutter
+  line-height: 1.25em
 ul,ol
   margin: 0 0 $gutter 10px
   padding: 0 0 0 10px
@@ -35,11 +47,15 @@ ul
   list-style: disc outside
 ol
   list-style: decimal outside
-
 .wrapper
   margin: 0 auto
   position: relative
   width: $cols16
+
+//UI Elements
+
+.ribbons
+  
 
 //Header
 
@@ -124,9 +140,31 @@ ol
     margin: 0
     li
       margin: 0
+
+#flexslider2
+  background: 0
+  box-shadow: none
+  border: none
+  overflow: hidden
+  padding: 0 $gutter
+  ul
+    li
+      text-align: center
+      .feature
+        display: inline-block
+        box-sizing: border-box
+        width: $cols4
+        margin-left: $cols1
+        &:first-child
+          margin-left: 0
+        h3
+          text-transform: capitalize
+          font-size: 22px
+
 //Front Page
 
 #front_page
+  padding: $gutter*2 0
   .wrapper
     width: $cols14
   h3
@@ -138,12 +176,28 @@ ol
 .content
   background: $white
   padding: $gutter 0
+  p
+    
 
 //Sidebar
 
 //Footer
 
 footer
+  color: $white
   padding: $gutter*2 0
+  #location, #about
+    display: inline-block
+    box-sizing: border-box
+    vertical-align: top
+  #location
+    width: $cols8
+  #about
+    width: $cols8
+  #credits
+    text-align: center
+    margin: $gutter 0
+    p
+      margin: 0
 
 //Break Points
