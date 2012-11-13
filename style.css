@@ -425,6 +425,9 @@ strong {
 em {
   font-style: italic; }
 
+address {
+  font-style: normal; }
+
 p, address {
   margin: 0 0 20px;
   line-height: 1.25em; }
@@ -536,10 +539,15 @@ ol {
           width: 13.75em; }
           #header_wrap header nav ul#access li:hover ul li {
             display: block; }
-  #header_wrap header #location ul li {
-    display: inline-block;
-    box-sizing: border-box;
-    color: white; }
+  #header_wrap header #head_location {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-family: "kameronregular", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; }
+    #header_wrap header #head_location ul li {
+      display: inline-block;
+      box-sizing: border-box;
+      color: white; }
 
 .subheader {
   background: url(images/straws.png);
@@ -624,6 +632,13 @@ ol {
       #flexslider2 ul li .feature h3 {
         text-transform: capitalize;
         font-size: 22px; }
+  #flexslider2 .flex-direction-nav a {
+    background: url(images/arrow_flex_small.png) no-repeat;
+    height: 34px;
+    width: 34px; }
+  #flexslider2 .flex-direction-nav .flex-next {
+    background-position: 100%;
+    right: 0; }
 
 #front_page {
   padding: 40px 0; }

@@ -4,7 +4,6 @@
 @import 'fonts/cabin/stylesheet.sass'
 @import 'flexslider.sass'
 
-
 //Colors
 
 $white: #fff
@@ -15,9 +14,8 @@ $brown: #4A392F
 $md_gray: #666
 $drk_blue: #1B242E
 
-//Typograpy
-
 //General
+
 body, #page
   background: $brown
   color: $md_gray
@@ -37,6 +35,8 @@ strong
   font-weight: bold
 em
   font-style: italic
+address
+  font-style: normal
 p, address
   margin: 0 0 $gutter
   line-height: 1.25em
@@ -118,7 +118,6 @@ ol
       img
         max-width: 100%
         height: auto
-    
     nav
       margin-top: $gutter*2
       font-size: 24px
@@ -152,7 +151,11 @@ ol
             li
               display: block
     
-    #location
+    #head_location
+      position: absolute
+      right: 0
+      top: 10px
+      @include kameronregular
       ul
         li
           display: inline-block
@@ -222,7 +225,6 @@ ol
       margin-right: -40px
       background-position: 100%
       right: 3px
-      
 
 #flexslider2
   margin-top: $gutter*2
@@ -245,6 +247,14 @@ ol
         h3
           text-transform: capitalize
           font-size: 22px
+  .flex-direction-nav
+    a
+      background: url(images/arrow_flex_small.png) no-repeat
+      height: 34px
+      width: 34px
+    .flex-next
+      background-position: 100%
+      right: 0
 
 //Front Page
 
@@ -258,8 +268,6 @@ ol
 .content
   background: $white
   padding: $gutter 0
-  p
-    
 
 //Sidebar
 
