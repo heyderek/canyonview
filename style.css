@@ -425,6 +425,14 @@ strong {
 em {
   font-style: italic; }
 
+blockquote {
+  margin: 20px;
+  border: 1px solid #999999;
+  border-radius: 8px;
+  background: #cccccc;
+  padding: 20px;
+  padding-bottom: 0; }
+
 address {
   font-style: normal; }
 
@@ -658,6 +666,10 @@ ol {
   white-space: nowrap; }
   #primary > *, #secondary > * {
     white-space: normal; }
+  #primary h1, #primary h3, #primary h5, #secondary h1, #secondary h3, #secondary h5 {
+    color: #1b242e; }
+  #primary h2, #primary h4, #primary h6, #secondary h2, #secondary h4, #secondary h6 {
+    font-family: "kameronregular", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; }
 
 #primary {
   width: 58.75em;
@@ -667,6 +679,11 @@ ol {
 #secondary {
   width: 18.75em;
   margin-left: -78.75em; }
+  #secondary h1, #secondary h2, #secondary h3, #secondary h4, #secondary h5, #secondary h6 {
+    font-size: 25px; }
+
+#secondary aside {
+  margin: 0 0 20px; }
 
 footer {
   color: white;

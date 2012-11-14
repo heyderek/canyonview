@@ -11,6 +11,8 @@ $lt_green: #99CC33
 $md_green: #5C7930
 $khaki: #C8733E
 $brown: #4A392F
+$ult_gray: #ccc
+$lt_gray: #999
 $md_gray: #666
 $drk_blue: #1B242E
 
@@ -35,6 +37,13 @@ strong
   font-weight: bold
 em
   font-style: italic
+blockquote
+  margin: $gutter
+  border: 1px solid $lt_gray
+  border-radius: 8px
+  background: $ult_gray
+  padding: $gutter
+  padding-bottom: 0
 address
   font-style: normal
 p, address
@@ -53,6 +62,10 @@ ol
   margin: 0 auto
   position: relative
   width: $cols16
+
+//Form Elements
+
+input
 
 //UI Elements
 
@@ -278,6 +291,10 @@ ol
   white-space: nowrap
   &>*
     white-space: normal
+  h1,h3,h5
+    color: $drk_blue
+  h2,h4,h6
+    @include kameronregular
 #primary
   width: $cols12
   padding-left: $gutter
@@ -285,8 +302,15 @@ ol
 #secondary
   width: $cols4
   margin-left: -$cols16
+  h1,h2,h3,h4,h5,h6
+    font-size: 25px
+    
 
 //Sidebar
+
+#secondary
+  aside
+    margin: 0 0 $gutter
 
 //Footer
 
