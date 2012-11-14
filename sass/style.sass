@@ -14,9 +14,13 @@ $brown: #4A392F
 $ult_gray: #ccc
 $lt_gray: #999
 $md_gray: #666
+$drk_gray: #333
 $drk_blue: #1B242E
 
 //General
+
+body
+  overflow-x: hidden
 
 body, #page
   background: $brown
@@ -38,7 +42,7 @@ strong
 em
   font-style: italic
 blockquote
-  margin: $gutter
+  margin: $gutter 0
   border: 1px solid $lt_gray
   border-radius: 8px
   background: $ult_gray
@@ -65,7 +69,37 @@ ol
 
 //Form Elements
 
-input
+input[type="submit"]
+  border: none
+  background: $lt_green
+  padding: 10px 20px
+  font-size: 16px
+  color: $white
+  border-radius: 8px
+input[type="text"]
+  background: $ult_gray
+  border: none
+  border-radius: 15em
+  padding: 10px
+  font-family: inherit
+  color: $drk_gray
+  width: 30em
+  display: block
+  margin-bottom: $gutter
+  &:focus
+    background: $lt_gray
+textarea
+  background: $ult_gray
+  border: none
+  width: 30em
+  color: $drk_gray
+  font-family: inherit
+  border-radius: 8px
+  padding: 10px
+  display: block
+  margin-bottom: $gutter
+  &:focus
+    background: $lt_gray
 
 //UI Elements
 
@@ -324,9 +358,7 @@ footer
     display: inline-block
     box-sizing: border-box
     vertical-align: top
-  #location
-    width: $cols8
-  #about
+  #location, #about
     width: $cols8
   #credits
     text-align: center
@@ -335,3 +367,68 @@ footer
       margin: 0
 
 //Break Points
+
+//12 Column Break
+@media screen and (min-width: 960px) and (max-width: 1219px)
+  .wrapper
+    width: $cols12
+  #slider
+    .wrapper
+      width: $cols12
+  #front_page
+    .wrapper
+      width: $cols12
+  #flexslider2 
+    ul
+      li 
+        .feature
+          width: $cols3
+          h3
+            font-size: 18px
+  footer
+    #about, #location
+      width: $cols6
+  #primary
+    width: $cols9
+    margin-left: $cols3
+  #secondary
+    width: $cols3
+    margin-left: -$cols12
+
+//8 Column Break for Tablets
+@media screen and (min-width: 0px) and (max-width: 959px)
+  .wrapper
+    width: $cols8
+  #header_wrap
+    header
+      #branding
+        display: block
+        margin: 0 auto
+      nav
+        display: block
+        width: 100%
+        position: relative
+        margin: 0 0 $gutter
+  #slider
+    .wrapper
+      width: $cols8
+  #front_page
+    .wrapper
+      width: $cols8
+  #flexslider2 
+    ul
+      li 
+        .feature
+          width: $cols3
+          h3
+            font-size: 18px
+  footer
+    #about, #location
+      width: $cols8
+  #primary
+    width: $cols8
+    margin-left: 0
+  #secondary
+    margin-top: $gutter*2
+    width: $cols8
+    margin-left: 0
