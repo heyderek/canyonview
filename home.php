@@ -36,30 +36,30 @@
             <ul class="slides">
               <li>
                 <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Eye Exams</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_1', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_1', 'no entry'); ?></p>
                  </div><!-- /.feature -->
                  <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Contact Lenses</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_2', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_2', 'no entry'); ?></p>
                  </div><!-- /.feature -->
                  <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Optical Dispensary</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_3', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_3', 'no entry'); ?></p>
                  </div><!-- /.feature -->
               </li>
               <li>
                 <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Heading 1</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_4', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_4', 'no entry'); ?></p>
                  </div><!-- /.feature -->
                  <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Heading 1</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_5', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_5', 'no entry'); ?></p>
                  </div><!-- /.feature -->
                  <div class="feature">
-                    <h3 class="ribbon"><strong class="ribbon-content">Heading 1</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="ribbon"><strong class="ribbon-content"><?php echo of_get_option('service_title_6', 'no entry'); ?></strong></h3>
+                    <p><?php echo of_get_option('service_text_6', 'no entry'); ?></p>
                  </div><!-- /.feature -->
               </li>
 
