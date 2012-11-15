@@ -18,3 +18,9 @@ register_nav_menus( array(
   'primary' => __( 'Primary Menu', 'bnb' ),
   ) 
 );
+
+//Add Options Framework
+if ( !function_exists( 'optionsframework_init' ) ) {
+  define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
+  require_once dirname( __FILE__ ) . '/inc/options-framework.php';
+}
