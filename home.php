@@ -1,71 +1,25 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width" />
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css" title="style.css" type="text/css" media="screen" charset="utf-8">
-    <!--[if lt IE 9]><script src="js/html5.js" charset="utf-8"></script><![endif]-->
-    <script src="js/jquery.js" charset="utf-8"></script>
-    <script src="js/prefixfree.min.js" charset="utf-8"></script>
-    <script src="js/flexslider.js" charset="utf-8"></script>
-    <script src="js/custom.js" charset="utf-8"></script>
-    <title>Canyon View Family Eye Care</title>
-  </head>
-  <body>
-    <div id="page">
-      <section id="header_wrap">
-        <header class="wrapper">
-          <hgroup id="branding">
-            <h1>Canyon View Family Eye Care</h1>
-            <h2>Dr. Karl Czirr</h2>
-            <a id="logo" href="#home"><img src="images/canyonview_logo.png" /></a>
-          </hgroup><!-- /#branding -->
-          <nav>
-            <ul id="access">
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li>
-                <a href="#">Link</a>
-                <ul>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                </ul>
-              </li>
-            </ul><!-- /#access -->
-          </nav>
-          <div id="head_location">
-            <ul>
-              <li><address>1234 Anywhere, WA</address></li>
-              <li><p>509-123-4567</p></li>
-            </ul>
-          </div>
-        </header>
-      </section><!-- /#header_wrap -->
+<?php get_header(); ?>
       <section id="slider" class="subheader">
         <div class="wrapper">
           <div id="flexslider1_wrap">
             <div id="flexslider1" class="flexslider">
               <ul class="slides">
                 <li>
-                  <img src="slides/canyonview_building.jpg"/>
+                  <img src="<?php bloginfo('template_directory'); ?>/slides/canyonview_building.jpg"/>
                   <div class="caption">
                     <h3>We want to help you see things differently</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div><!-- /.caption -->
                 </li>
                 <li>
-                  <img src="slides/canyonview_building.jpg"/>
+                  <img src="<?php bloginfo('template_directory'); ?>/slides/canyonview_building.jpg"/>
                   <div class="caption">
                     <h3>We do stuff and it helps people.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div><!-- /.caption -->
                 </li>
                 <li>
-                  <img src="slides/canyonview_building.jpg"/>
+                  <img src="<?php bloginfo('template_directory'); ?>/slides/canyonview_building.jpg"/>
                   <div class="caption">
                     <h3>And some other things about how we do it.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -113,26 +67,4 @@
           </div>
         </div><!-- ./wrapper -->
       </section><!-- /.content, /#front_page -->
-      <footer>
-        <div class="wrapper">
-          <div id="location">
-            <h3>Our Location</h3>
-            <address>1234 N. Avenue, Anywhere, WA 12345</address>
-            <p>
-              <strong>Monday-Wednesday-Thursday:</strong>9am-5pm<br>
-              <strong>Tuesday:</strong>9am-6pm<br>
-              <strong>Friday:</strong>9am-2pm<br>
-            </p>
-          </div><!-- /#location -->
-          <div id="about">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div><!-- /#about -->
-          <div id="credits">
-            <p>&copy;2012 Canyon View Family Eye Care.  All Rights Reserved.</p>
-          </div><!-- /#credits -->
-        </div>
-      </footer>
-    </div><!-- /#page -->
-  </body>
-</html>
+<?php get_footer(); ?>

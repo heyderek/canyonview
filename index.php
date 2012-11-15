@@ -1,3 +1,4 @@
+<?php get_header(); ?>
       <section class="subheader"></section>
       <section class="content">
         <div class="wrapper">
@@ -35,3 +36,4 @@
           </div><!-- /#secondary -->
         </div><!-- ./wrapper -->
       </section><!-- /.content, /#front_page -->
+<?php get_footer(); ?>
