@@ -39,25 +39,9 @@
           <hgroup id="branding">
             <h1>Canyon View Family Eye Care</h1>
             <h2>Dr. Karl Czirr</h2>
-            <a id="logo" href="#home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" /></a>
+            <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" /></a>
           </hgroup><!-- /#branding -->
-          <nav>
-            <ul id="access">
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li>
-                <a href="#">Link</a>
-                <ul>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                </ul>
-              </li>
-            </ul><!-- /#access -->
-          </nav>
+          <nav><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></nav>
           <div id="head_location">
             <ul>
               <li><address>1234 Anywhere, WA</address></li>
