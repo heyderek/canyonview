@@ -409,7 +409,10 @@ body, #page {
   font-family: "cabin_condensedregular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #99cc33; }
+  a:hover {
+    color: #5c7930; }
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
@@ -707,6 +710,13 @@ textarea {
     color: #1b242e; }
   #primary h2, #primary h4, #primary h6, #secondary h2, #secondary h4, #secondary h6 {
     font-family: "kameronregular", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; }
+
+article.post {
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #cccccc; }
+  article.post:last-child {
+    border-bottom: none; }
 
 #primary {
   width: 58.75em;

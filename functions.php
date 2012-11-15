@@ -1,6 +1,5 @@
 <?php
 
-
 //Add Sidebar Widget Area
 function cv_widgets() {
   register_sidebar( array(

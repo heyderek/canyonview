@@ -28,7 +28,9 @@ body, #page
   @include cabin_condensedregular
 a
   text-decoration: none
+  color: $lt_green
   &:hover
+    color: $md_green
 h1,h2,h3,h4,h5,h6
   text-transform: uppercase
   margin: 0 0 $gutter
@@ -329,6 +331,13 @@ textarea
     color: $drk_blue
   h2,h4,h6
     @include kameronregular
+
+article.post
+  padding: 0 0 $gutter 0
+  margin: 0 0 $gutter 0
+  border-bottom: 1px solid $ult_gray
+  &:last-child
+    border-bottom: none
 #primary
   width: $cols12
   padding-left: $gutter
