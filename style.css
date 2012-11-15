@@ -765,7 +765,7 @@ footer {
   #secondary {
     width: 13.75em;
     margin-left: -58.75em; } }
-@media screen and (min-width: 0px) and (max-width: 959px) {
+@media screen and (min-width: 540px) and (max-width: 959px) {
   .wrapper {
     width: 38.75em; }
 
@@ -785,18 +785,74 @@ footer {
     width: 38.75em; }
 
   #flexslider2 ul li .feature {
-    width: 13.75em; }
+    width: 28.75em;
+    display: block;
+    margin: 0 auto; }
+    #flexslider2 ul li .feature:first-child {
+      margin: 0 auto; }
     #flexslider2 ul li .feature h3 {
-      font-size: 18px; }
+      font-size: 22px; }
 
   footer #about, footer #location {
     width: 38.75em; }
 
   #primary {
     width: 38.75em;
-    margin-left: 0; }
+    margin-left: 0;
+    padding-left: 0; }
 
   #secondary {
     margin-top: 40px;
     width: 38.75em;
+    margin-left: 0; } }
+@media screen and (min-width: 0px) and (max-width: 539px) {
+  input[type="text"], textarea {
+    width: 100%; }
+
+  .wrapper {
+    width: 18.75em; }
+
+  #header_wrap header #branding {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 20px; }
+  #header_wrap header #head_location {
+    left: 0; }
+  #header_wrap header nav {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 0 0 20px; }
+    #header_wrap header nav ul#access {
+      text-align: center; }
+      #header_wrap header nav ul#access li {
+        display: block; }
+
+  #slider .wrapper {
+    width: 18.75em; }
+
+  #front_page .wrapper {
+    width: 18.75em; }
+
+  #flexslider2 ul li .feature {
+    width: 13.75em;
+    display: block;
+    margin: 0 auto; }
+    #flexslider2 ul li .feature:first-child {
+      margin: 0 auto; }
+    #flexslider2 ul li .feature h3 {
+      font-size: 18px; }
+
+  footer #about, footer #location {
+    width: 18.75em; }
+
+  #primary {
+    width: 18.75em;
+    margin-left: 0;
+    padding-left: 0; }
+
+  #secondary {
+    margin-top: 40px;
+    width: 18.75em;
     margin-left: 0; } }

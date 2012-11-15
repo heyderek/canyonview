@@ -396,7 +396,7 @@ footer
     margin-left: -$cols12
 
 //8 Column Break for Tablets
-@media screen and (min-width: 0px) and (max-width: 959px)
+@media screen and (min-width: 540px) and (max-width: 959px)
   .wrapper
     width: $cols8
   #header_wrap
@@ -419,16 +419,74 @@ footer
     ul
       li 
         .feature
-          width: $cols3
+          width: $cols6
+          display: block
+          margin: 0 auto
+          &:first-child
+            margin: 0 auto
           h3
-            font-size: 18px
+            font-size: 22px
   footer
     #about, #location
       width: $cols8
   #primary
     width: $cols8
     margin-left: 0
+    padding-left: 0
   #secondary
     margin-top: $gutter*2
     width: $cols8
+    margin-left: 0
+
+//4 Column Break for Mobile
+@media screen and (min-width: 0px) and (max-width: 539px)
+  input[type="text"],textarea
+    width: 100%
+  .wrapper
+    width: $cols4
+  #header_wrap
+    header
+      #branding
+        display: block
+        width: 100%
+        margin: 0 auto
+        padding: $gutter*2 0 $gutter
+      #head_location
+        left: 0
+      nav
+        display: block
+        width: 100%
+        position: relative
+        margin: 0 0 $gutter
+        ul#access
+          text-align: center
+          li
+            display: block
+  #slider
+    .wrapper
+      width: $cols4
+  #front_page
+    .wrapper
+      width: $cols4
+  #flexslider2 
+    ul
+      li 
+        .feature
+          width: $cols3
+          display: block
+          margin: 0 auto
+          &:first-child
+            margin: 0 auto
+          h3
+            font-size: 18px
+  footer
+    #about, #location
+      width: $cols4
+  #primary
+    width: $cols4
+    margin-left: 0
+    padding-left: 0
+  #secondary
+    margin-top: $gutter*2
+    width: $cols4
     margin-left: 0
