@@ -13,6 +13,13 @@ function cv_widgets() {
 }
 add_action('init', 'cv_widgets'); 
 
+//Add Home to Menu Item
+function cvw_home_menu( $args ) {
+  $args['show_home'] = true;
+  return $args;
+}
+add_filter( 'wp_page_menu_args', 'cvw_home_menu' );
+
 //Add Primary Menu Area
 register_nav_menus( array(
   'primary' => __( 'Primary Menu', 'bnb' ),
