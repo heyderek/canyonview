@@ -44,8 +44,8 @@
           <nav><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></nav>
           <div id="head_location">
             <ul>
-              <li><address>1234 Anywhere, WA</address></li>
-              <li><p>509-123-4567</p></li>
+              <li><address>4309 W 27th Place Ste. B102, Kennewick, WA 99338</address></li>
+              <li><p>509-737-2010</p></li>
             </ul>
           </div>
         </header>

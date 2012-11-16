@@ -5,7 +5,7 @@
           <div id="primary">
             <?php while ( have_posts() ) : the_post(); ?>
               <article class="post">
-                <h3><?php the_title(); ?></h3>
+                <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
                 <?php the_content(); ?>
               </article><!-- /.post -->
             <?php endwhile; ?>

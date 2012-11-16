@@ -2,7 +2,7 @@
         <div class="wrapper">
           <div id="location">
             <h3>Our Location</h3>
-            <address>1234 N. Avenue, Anywhere, WA 12345</address>
+            <address>4309 W 27th Place Ste. B102, Kennewick, WA 99338</address>
             <p>
               <strong>Monday-Wednesday-Thursday:</strong>9am-5pm<br>
               <strong>Tuesday:</strong>9am-6pm<br>
