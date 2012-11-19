@@ -585,6 +585,8 @@ textarea {
         box-sizing: border-box;
         vertical-align: middle;
         margin: 0; }
+        #header_wrap header nav ul li > * {
+          white-space: normal; }
         #header_wrap header nav ul li a {
           color: white;
           padding: 20px;
