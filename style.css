@@ -852,9 +852,9 @@ footer {
     width: 100%;
     position: relative;
     margin: 0 0 20px; }
-    #header_wrap header nav ul#access {
+    #header_wrap header nav ul {
       text-align: center; }
-      #header_wrap header nav ul#access li {
+      #header_wrap header nav ul li {
         display: block; }
 
   #slider .wrapper {
