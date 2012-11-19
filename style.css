@@ -599,7 +599,7 @@ textarea {
           white-space: normal; }
         #header_wrap header nav ul li a {
           color: white;
-          padding: 20px;
+          padding: 10px;
           display: block; }
           #header_wrap header nav ul li a:hover {
             border-bottom: 3px solid #99cc33;
