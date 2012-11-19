@@ -620,10 +620,14 @@ textarea {
     right: 0;
     top: 10px;
     font-family: "kameronregular", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; }
-    #header_wrap header #head_location ul li {
-      display: inline-block;
-      box-sizing: border-box;
-      color: white; }
+    #header_wrap header #head_location ul {
+      margin: 0;
+      list-style: none;
+      padding: 0; }
+      #header_wrap header #head_location ul li {
+        display: inline-block;
+        box-sizing: border-box;
+        color: white; }
 
 .subheader {
   background: url(images/straws.png);
