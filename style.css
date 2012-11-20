@@ -877,6 +877,9 @@ footer {
   #front_page .wrapper {
     width: 18.75em; }
 
+  #flexslider1 .flex-direction-nav {
+    display: none; }
+
   #flexslider2 ul li .feature {
     width: 13.75em;
     display: block;
