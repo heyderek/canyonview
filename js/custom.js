@@ -23,6 +23,7 @@ $(document).ready(function() {
     controlNav: false
   }); 
   
+/*
   var winWidth = $(window).width();
   if ( winWidth < 959 ) {
     $('nav ul').hide();
@@ -39,4 +40,5 @@ $(document).ready(function() {
   } else {
   
   };
+*/
 });
