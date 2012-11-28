@@ -587,6 +587,7 @@ textarea {
     #header_wrap header nav ul {
       margin: 0;
       padding: 10px 20px;
+      background: url(images/nav_alpha.png);
       background: rgba(84, 22, 9, 0.5);
       border-radius: 8px; }
       #header_wrap header nav ul li {
@@ -627,7 +628,12 @@ textarea {
       #header_wrap header #head_location ul li {
         display: inline-block;
         box-sizing: border-box;
-        color: white; }
+        color: white;
+        vertical-align: middle;
+        margin-right: 5px; }
+        #header_wrap header #head_location ul li .social {
+          margin-top: -17px;
+          display: block; }
 
 .subheader {
   background: url(images/straws.png);
@@ -657,6 +663,7 @@ textarea {
     text-shadow: 3px 3px 0 white, 5px 5px 0 #1b242e; }
 
 .bg-white {
+  background: url(images/caption_alpha.png);
   background: rgba(255, 255, 255, 0.5);
   padding: 10px;
   border-radius: 8px; }
@@ -890,6 +897,9 @@ footer {
 
   #flexslider1 .flex-direction-nav {
     display: none; }
+
+  .caption {
+    display: none !important; }
 
   #flexslider2 ul li .feature {
     width: 13.75em;
