@@ -45,7 +45,13 @@
           <div id="head_location">
             <ul>
               <li><address>4309 W 27th Place Ste. B102, Kennewick, WA 99338</address></li>
-              <li><p>509-737-2010</p></li>
+              <li><p> | 509-737-2010</p></li>
+              <li>
+                <a class="social" href="https://www.facebook.com/pages/CanyonView-Family-Eye-Care/128239243886231"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" /></a>
+              </li>
+              <li>
+                <a class="social" href="#"><img src="<?php bloginfo('template_url'); ?>/images/email.png" /></a>
+              </li>
             </ul>
           </div>
         </header>
