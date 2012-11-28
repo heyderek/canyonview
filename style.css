@@ -651,12 +651,23 @@ textarea {
 .caption {
   width: 38.75em;
   position: absolute;
-  top: 20px;
-  left: 20px;
   z-index: 9;
   color: #1b242e; }
   .caption h3 {
     text-shadow: 3px 3px 0 white, 5px 5px 0 #1b242e; }
+
+.bg-white {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 8px; }
+
+.top-left {
+  top: 20px;
+  left: 20px; }
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px; }
 
 #flexslider1_wrap {
   position: relative;
