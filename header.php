@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<meta charset="<?php bloginfo('charset'); ?>">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
 <html>
   <head>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <!--[if lt IE 9]><script src="js/html5.js" charset="utf-8"></script><![endif]-->
     <script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.js" charset="utf-8"></script>
+    <!--[if lt IE 9]><script src="<?php bloginfo( 'template_directory' ); ?>/js/html5.js" charset="utf-8"></script><![endif]-->
     <script src="<?php bloginfo( 'template_directory' ); ?>/js/prefixfree.min.js" charset="utf-8"></script>
     <script src="<?php bloginfo( 'template_directory' ); ?>/js/flexslider.js" charset="utf-8"></script>
     <script src="<?php bloginfo( 'template_directory' ); ?>/js/custom.js" charset="utf-8"></script>

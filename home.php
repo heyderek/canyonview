@@ -18,7 +18,13 @@
                     <?php echo of_get_option('slide_caption_2', 'no entry'); ?>
                   </div><!-- /.caption -->
                 </li>
-                
+                <li>
+                  <img src="<?php echo of_get_option('slide_image_3', 'no entry'); ?>"/>
+                  <div class="caption top-left bg-white">
+                    <h3><?php echo of_get_option('slide_title_3', 'no entry'); ?></h3>
+                    <?php echo of_get_option('slide_caption_3', 'no entry'); ?>
+                  </div><!-- /.caption -->
+                </li>
               </ul>
             </div><!-- /.flexslider -->
           </div><!-- /#flexslider1_wrap -->
