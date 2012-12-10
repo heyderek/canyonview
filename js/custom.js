@@ -23,22 +23,27 @@ $(document).ready(function() {
     controlNav: false
   }); 
   
-/*
-  var winWidth = $(window).width();
-  if ( winWidth < 959 ) {
-    $('nav ul').hide();
-    $('nav').prepend('<div id="here"><button>click me</button></div>');
-    if($('nav ul').is(':hidden')) {
-      $('#here button').click(function(){
-        $('nav ul').slideDown();
-      });
-    } else {
-      $('#here button').click(function(){
-        $('nav ul').slideUp();
-      });
-    }
-  } else {
-  
-  };
-*/
+  //Grab the navigation, and create an options menu for mobile dropdown.
+  $(function() {
+    //Append the select element to the navigation
+    $("<select />").appendTo("nav");
+    $("<option />", {
+       "selected": "selected",
+       "value"   : "",
+       "text"    : "Go to..."
+    }).appendTo("nav select");
+    //Find the links within the nav, and convert them to options
+    $("#header_wrap nav a").each(function() {
+     var navLink = $(this);
+    //Grab the values and attribute them to the proper option element
+    $("<option />", {
+         "value" : navLink.attr("href"),
+         "text" : navLink.text()
+     }).appendTo("nav select");
+    });
+    $("nav select").change(function() {
+      window.location = $(this).find("option:selected").val();
+    });
+  });
+
 });

@@ -198,6 +198,9 @@ textarea
       font-size: 24px
       position: absolute
       right: 0
+    nav
+      select
+        display: none
       ul
         margin: 0
         padding: 0
@@ -521,6 +524,8 @@ footer
     width: 100%
   .wrapper
     width: $cols4
+  h1,h3,h5
+    font-size: 35px
   #header_wrap
     header
       #branding
@@ -548,9 +553,18 @@ footer
         margin: 0 0 $gutter
         font-size: 18px
         ul
-          text-align: center
-          li
-            display: block
+          display: none
+      nav
+        select
+          display: block
+          width: 100%
+          border: none
+          padding: 10px 0
+          &:after
+            position: absolute
+            content: "Menu"
+            right: 0
+            bottom: -1em
   #slider
     .wrapper
       width: $cols4
