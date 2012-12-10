@@ -436,7 +436,7 @@ footer
   #header_wrap
     header
       nav
-        font-size: 22px
+        font-size: 18px
       hgroup
         width: $cols4
   #slider
@@ -471,11 +471,17 @@ footer
       #branding
         display: block
         margin: 0 auto
+        width: $cols4
+        position: relative
+        top: 20px
       nav
         display: block
         width: 100%
         position: relative
         margin: 0 0 $gutter
+        font-size: 18px
+      #head_location
+        top: 10px
   #slider
     .wrapper
       width: $cols8
@@ -517,14 +523,26 @@ footer
         display: block
         width: 100%
         margin: 0 auto
-        padding: $gutter*2 0 $gutter
+        padding: $gutter*4 0 $gutter
       #head_location
         left: 0
+        top: 10px
+        text-align: center
+        ul
+          margin: 0
+          li
+            margin: 0
+            .social
+              margin: 0
+        p, address
+          margin: 0
+          line-height: 1
       nav
         display: block
         width: 100%
         position: relative
         margin: 0 0 $gutter
+        font-size: 18px
         ul
           text-align: center
           li

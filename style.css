@@ -809,7 +809,7 @@ footer {
     width: 58.75em; }
 
   #header_wrap header nav {
-    font-size: 22px; }
+    font-size: 18px; }
   #header_wrap header hgroup {
     width: 18.75em; }
 
@@ -840,12 +840,18 @@ footer {
 
   #header_wrap header #branding {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 18.75em;
+    position: relative;
+    top: 20px; }
   #header_wrap header nav {
     display: block;
     width: 100%;
     position: relative;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-size: 18px; }
+  #header_wrap header #head_location {
+    top: 10px; }
 
   #slider .wrapper {
     width: 38.75em; }
@@ -885,14 +891,26 @@ footer {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 0 20px; }
+    padding: 80px 0 20px; }
   #header_wrap header #head_location {
-    left: 0; }
+    left: 0;
+    top: 10px;
+    text-align: center; }
+    #header_wrap header #head_location ul {
+      margin: 0; }
+      #header_wrap header #head_location ul li {
+        margin: 0; }
+        #header_wrap header #head_location ul li .social {
+          margin: 0; }
+    #header_wrap header #head_location p, #header_wrap header #head_location address {
+      margin: 0;
+      line-height: 1; }
   #header_wrap header nav {
     display: block;
     width: 100%;
     position: relative;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-size: 18px; }
     #header_wrap header nav ul {
       text-align: center; }
       #header_wrap header nav ul li {
