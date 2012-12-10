@@ -590,7 +590,8 @@ textarea {
       background: url(images/nav_alpha.png);
       background: rgba(84, 22, 9, 0.5);
       padding: 3px;
-      border-radius: 8px; }
+      border-radius: 8px;
+      overflow-x: hidden; }
       #header_wrap header nav ul li {
         display: inline-block;
         white-space: nowrap;
