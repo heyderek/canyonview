@@ -855,6 +855,10 @@ footer {
 
   #slider .wrapper {
     width: 38.75em; }
+    #slider .wrapper .caption {
+      width: 18.75em; }
+      #slider .wrapper .caption h1, #slider .wrapper .caption h3, #slider .wrapper .caption h5 {
+        font-size: 28px; }
 
   #front_page .wrapper {
     width: 38.75em; }
