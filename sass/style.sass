@@ -194,16 +194,20 @@ textarea
         max-width: 100%
         height: auto
     nav
-      margin-top: $gutter*2
+      margin-top: $gutter*3
       font-size: 24px
       position: absolute
       right: 0
       ul
         margin: 0
-        padding: $gutter/2 $gutter
+        padding: 0
         background: url(images/nav_alpha.png)
         background: rgba(84,22,9,.5)
-        border-radius: 8px
+        border:
+          style: solid
+          width: 3px
+          radius: 8px
+          color: rgba(84,22,9,.5)
         li
           display: inline-block
           white-space: nowrap
@@ -214,19 +218,20 @@ textarea
             white-space: normal
           a
             color: $white
-            padding: $gutter/2
+            padding: $gutter 15px
             display: block
             &:hover
               border-bottom: 3px solid $lt_green
               margin-bottom: -3px
           ul
             display: none
-            background: rgba(84,22,9,.5)
+            border: none
+            background: rgba(84,22,9,.75)
           &:hover ul
             display: block
             position: absolute
-            width: $cols2
-            margin-top: 10px
+            top: 100%
+            width: $cols3
             border-radius: 0 0 5px 5px
             li
               display: block
