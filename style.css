@@ -475,15 +475,31 @@ ol {
 
 .alignleft {
   float: left;
-  margin: 0 10px 10px 0; }
+  margin: 0 10px 10px 0;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
 
 .alignright {
   float: right;
-  margin: 0 0 10px 10px; }
+  margin: 0 0 10px 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
 
 .aligncenter {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+
+.wp-caption {
+  background: white;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin: 0 0 20px 0;
+  text-align: center; }
+  .wp-caption img {
+    max-width: 100%;
+    height: auto; }
+  .wp-caption p {
+    margin: 0; }
 
 input[type="submit"] {
   border: none;
