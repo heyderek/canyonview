@@ -14,7 +14,7 @@
             <p><?php echo of_get_option('about_us_text', 'no entry'); ?></p>
           </div><!-- /#about -->
           <div id="credits">
-            <p>&copy;2012 Canyon View Family Eye Care.  All Rights Reserved.</p>
+            <p>&copy;2012 Canyon View Family Eye Care. <?php wp_loginout(); ?>.  All Rights Reserved.</p>
           </div><!-- /#credits -->
         </div>
       </footer>
