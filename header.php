@@ -40,7 +40,7 @@
             <h1>Canyon View Family Eye Care</h1>
             <h2>Dr. Karl Czirr</h2>
           </hgroup><!-- /#branding -->
-          <a class="logo" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" /></a>
+          <a class="logo" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
           <nav><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></nav>
           <div id="head_location">
             <ul>
