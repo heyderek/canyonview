@@ -458,12 +458,13 @@ p, address {
 
 ul, ol {
   margin: 0 0 20px 10px;
-  padding: 0 0 0 10px; }
-  ul li, ol li {
-    margin: 0 0 5px 0; }
+  padding: 0 0 0 10px;
+  line-height: 1.35; }
 
 ul {
   list-style: disc outside; }
+  ul .children {
+    margin: 0 0 0 10px; }
 
 ol {
   list-style: decimal outside; }
@@ -621,7 +622,8 @@ textarea {
     background: rgba(84, 22, 9, 0.5);
     padding: 3px;
     border-radius: 8px;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    line-height: 1; }
     #header_wrap header nav ul li {
       display: inline-block;
       white-space: nowrap;
@@ -684,7 +686,8 @@ textarea {
   .flexslider ul {
     list-style: none;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    line-height: 1; }
     .flexslider ul li {
       margin: 0; }
 
