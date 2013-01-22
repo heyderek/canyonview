@@ -199,6 +199,13 @@ textarea
 
 //Header
 
+.logo
+  display: block
+  width: $cols5
+  img
+    max-width: 100%
+    height: auto
+
 #header_wrap
   background: url(images/wood.jpg)
   border-bottom: 2px solid $khaki
@@ -216,14 +223,12 @@ textarea
       h1,h2
         position: absolute
         text-indent: -9999em
-      img
-        max-width: 100%
-        height: auto
     nav
       margin-top: $gutter*3
       font-size: 24px
       position: absolute
       right: 0
+      top: 0
     nav
       select
         display: none
@@ -462,14 +467,14 @@ footer
 
 //12 Column Break
 @media screen and (min-width: 960px) and (max-width: 1219px)
+  .logo
+    width: $cols4
   .wrapper
     width: $cols12
   #header_wrap
     header
       nav
         font-size: 18px
-      hgroup
-        width: $cols4
   #slider
     .wrapper
       width: $cols12
@@ -497,6 +502,9 @@ footer
 @media screen and (min-width: 540px) and (max-width: 959px)
   .wrapper
     width: $cols8
+  .logo
+    width: $cols4
+    margin: 0 auto
   #header_wrap
     header
       #branding
@@ -554,6 +562,8 @@ footer
     width: $cols4
   h1,h3,h5
     font-size: 35px
+  .logo
+    width: $cols4
   #header_wrap
     header
       #branding
@@ -587,7 +597,7 @@ footer
           display: block
           width: 100%
           border: none
-          padding: 10px 0
+          margin: 10px 0
           &:after
             position: absolute
             content: "Menu"

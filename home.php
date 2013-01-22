@@ -5,21 +5,21 @@
             <div id="flexslider1" class="flexslider">
               <ul class="slides">
                 <li>
-                  <img src="<?php echo of_get_option('slide_image_1', 'no entry'); ?>"/>
+                  <img src="<?php echo of_get_option('slide_image_1', 'no entry'); ?>" alt="<?php echo of_get_option('slide_title_1', 'no entry'); ?>" />
                   <div class="caption top-left bg-white">
                     <h3><?php echo of_get_option('slide_title_1', 'no entry'); ?></h3>
                     <?php echo of_get_option('slide_caption_1', 'no entry'); ?>
                   </div><!-- /.caption -->
                 </li>
                 <li>
-                  <img src="<?php echo of_get_option('slide_image_2', 'no entry'); ?>"/>
+                  <img src="<?php echo of_get_option('slide_image_2', 'no entry'); ?>" alt="<?php echo of_get_option('slide_title_1', 'no entry'); ?>" />
                   <div class="caption bottom-right bg-white">
                     <h3><?php echo of_get_option('slide_title_2', 'no entry'); ?></h3>
                     <?php echo of_get_option('slide_caption_2', 'no entry'); ?>
                   </div><!-- /.caption -->
                 </li>
                 <li>
-                  <img src="<?php echo of_get_option('slide_image_3', 'no entry'); ?>"/>
+                  <img src="<?php echo of_get_option('slide_image_3', 'no entry'); ?>" alt="<?php echo of_get_option('slide_title_1', 'no entry'); ?>" />
                   <div class="caption top-left bg-white">
                     <h3><?php echo of_get_option('slide_title_3', 'no entry'); ?></h3>
                     <?php echo of_get_option('slide_caption_3', 'no entry'); ?>

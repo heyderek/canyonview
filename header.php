@@ -39,18 +39,18 @@
           <hgroup id="branding">
             <h1>Canyon View Family Eye Care</h1>
             <h2>Dr. Karl Czirr</h2>
-            <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" /></a>
           </hgroup><!-- /#branding -->
+          <a class="logo" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/canyonview_logo.png" /></a>
           <nav><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></nav>
           <div id="head_location">
             <ul>
               <li><address>4309 W 27th Place Ste. B102, Kennewick, WA 99338</address></li>
               <li><p> | 509-737-2010</p></li>
               <li>
-                <a class="social" href="https://www.facebook.com/pages/CanyonView-Family-Eye-Care/128239243886231"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" /></a>
+                <a class="social" href="https://www.facebook.com/pages/CanyonView-Family-Eye-Care/128239243886231"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="Canyon View Family Eye Care on Facebook" /></a>
               </li>
               <li>
-                <a class="social" href="#"><img src="<?php bloginfo('template_url'); ?>/images/email.png" /></a>
+                <a class="social" href="#"><img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="contact Family Eye Care"/></a>
               </li>
             </ul>
           </div>
